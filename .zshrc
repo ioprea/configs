@@ -51,13 +51,12 @@ ZSH_THEME="prose"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
 # ZSH
 source $HOME/.oh-my-zsh/plugins/z/z.sh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PATH=$PATH:/opt/apache-maven/bin
 
 
@@ -91,5 +90,3 @@ export PATH=$PATH:/opt/apache-maven/bin
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias)
 alias f="fuck"
-
-export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
