@@ -2,12 +2,12 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Johnny/.oh-my-zsh
+export ZSH=/Users/ionut.oprea/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="prose"
+ZSH_THEME="af-magic"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -58,7 +58,7 @@ source $ZSH/oh-my-zsh.sh
 # ZSH
 source $HOME/.oh-my-zsh/plugins/z/z.sh
 export PATH=$PATH:/opt/apache-maven/bin
-
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_232`
 
 # User configuration
 
